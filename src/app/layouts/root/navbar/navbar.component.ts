@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+// const navigations
 @Component({
   selector: 'mocksewa-navbar',
   templateUrl: './navbar.component.html',

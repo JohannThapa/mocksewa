@@ -17,7 +17,6 @@ body {
     font-size: $body-font-size;
     font-weight: $body-font-weight;
     line-height: $body-line-height;
-    overflow-y: scroll;
     backface-visibility: hidden;
 }
 
@@ -72,4 +71,20 @@ h6 {
     @if ($h6-font-size != null)   { font-size: $h6-font-size; }
     @if ($h6-font-weight != null) { font-weight: $h6-font-weight; }
     @if ($h6-font-style != null)  { font-style: $h6-font-style; }
+}
+
+.color-secondary{
+    color: $amaranth-red !important;
+}
+.color-primary{
+    color: $imperial-red !important;
+}
+.color-dark{
+    color: $space-cadet !important;
+}
+.color-light{
+    color: $cultured !important;
+}
+.color-grey{
+    color: $manatee !important;
 }
